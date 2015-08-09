@@ -1,5 +1,4 @@
 from django.conf.urls import include, url,patterns
-from rest_framework.urlpatterns import format_suffix_patterns
 from movies import views
 urlpatterns = patterns('',
 			(r'^login/$',views.login_check.as_view()),
