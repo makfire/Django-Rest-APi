@@ -2,3 +2,7 @@ Django==1.8.3
 virtualenv==1.11.4
 gunicorn==19.3.0
 psycopg2 == 2.4.2
+dj-database-url==0.3.0
+dj-static==0.0.6
+static==0.4
+wsgiref==0.1.2
