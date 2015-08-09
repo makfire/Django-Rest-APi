@@ -19,7 +19,6 @@ from django.contrib.auth.models import User
 class movielist(View):
 	
 	def get(self,request):
-		print "following this"
 		if request.GET.get('search',''):
 			'''Exact match '''
 			queryset = movie_details.objects.filter(name__exact = str(request.GET.get('search','')))
