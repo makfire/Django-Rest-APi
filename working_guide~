@@ -1,0 +1,63 @@
+
+
+Created RestfulApi Using Django
+
+implemented ['get','post','put','delete']
+
+used postman to send [ post , put ,delete ] request in json format
+
+Api supports:
+	GET
+		/movies/api/ -->  all the movies in json format
+		/movies/api/1/ -->  movies whoes id is 1 in database in json format
+		/movies/api/?search = war --> "search by name" of the movie, 
+						-looks for 
+							- exact match
+							- in the name
+							- starts with this search strings
+	
+		Login
+		http://localhost:8000/movies/login/?username=mukesh&password=mukesh
+		we have to pass username and pass word 
+		once they are authenticated a token would return , this token would help to work on site depending on level of access control
+		In our case mukesh is the admin
+
+		Token returned after authentication:
+			90c28bd5ed93ae9fcaaf90d5aa12f21a
+		not creating new token every time a user logs in once a token is created for user, same is given to the user for all 
+		subsequent logins
+	POST:
+		POST  localhost:8000/movies/api/90c28bd5ed93ae9fcaaf90d5aa12f21a/
+			{
+			    "name": "The Wizard of Oz",		
+			    "popularity": 83.0,
+			    "director": "Victor Fleming",
+			    "imdb_score": 8.3
+			    
+			}
+	PUT:
+		PUT  localhost:8000/movies/api/90c28bd5ed93ae9fcaaf90d5aa12f21a/  --> updates the movie information
+		     
+			- token helps us to authenticate user 
+			- if it belongs to super user deleted the info
+		json format required to pass for put
+			{
+			    "model": "movies.movie_details",
+			    "fields":{
+			    "name": "The Wizard of Australia",		
+			    "popularity": 83.0,
+			    "director": "Victor Fleming",
+			    "imdb_score": 8.3},
+			    "pk":41
+			    
+			}
+	
+	DELETE:
+             		 
+	     Delete  localhost:8000/movies/api/41/token/d41d8cd98f00b204e9800998ecf8427e/  --> deletes the movies with id 1
+		     
+			- token helps us to authenticate user 
+			- if it belongs to super user deleted the info
+              
+		         
+     

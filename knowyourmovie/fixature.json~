@@ -1,0 +1,10 @@
+[
+  {
+    "model": "movies.movie_details",
+    "pk":2,
+    "name": "The Wizard of Oz",		
+    "popularity": 83.0,
+    "director": "Victor Fleming",
+    "imdb_score": 8.3
+    
+  }]

@@ -1,0 +1,125 @@
+[
+  {
+    "model": "movies.movie_details",
+    "fields":{	
+    "popularity": 83.0,
+    "director": "Victor Fleming",
+    "imdb_score": 8.3,
+    "name": "The Wizard of Oz"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{	
+    "popularity": 88.0,
+    "director": "George Lucas",
+    "imdb_score": 8.8,
+    "name": "Star Wars"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{    
+	"popularity": 66.0,
+    "director": "Giovanni Pastrone",
+    "imdb_score": 6.6,
+    "name": "Cabiria"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{    
+	"popularity": 87.0,
+    "director": "Alfred Hitchcock",
+    "imdb_score": 8.7,
+    "name": "Psycho"
+	}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{    
+	"popularity": 80.0,
+    "director": "Merian C. Cooper",
+    "imdb_score": 8.0,
+    "name": "King Kong"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{
+    "popularity": 84.0,
+    "director": "Fritz Lang",
+    "imdb_score": 8.4,
+    "name": "Metropolis"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{    
+	"popularity": 86.0,
+    "director": "Marc Daniels",
+    "imdb_score": 8.6,
+    "name": "Star Trek"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{
+    "popularity": 88.0,
+    "director": "Michael Curtiz",
+    "imdb_score": 8.8,
+    "name": "Casablanca"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{
+    "popularity": 79.0,
+    "director": "William Cottrell",
+    "imdb_score": 7.9,
+    "name": "Snow White and the Seven Dwarfs"
+	}
+  },
+  {	
+	"model": "movies.movie_details",
+	"fields":{
+    "popularity": 84.0,
+    "director": "Stanley Kubrick",
+    "imdb_score": 8.4,
+    "name": "2001 : A Space Odyssey"
+	}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{
+    "popularity": 92.0,
+    "director": "Francis Ford Coppola",
+    "imdb_score": 9.2,
+    "name": "The Godfather"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{    
+	"popularity": 71.0,
+    "director": "D.W. Griffith",
+    "imdb_score": 7.1,
+    "name": "The Birth of a Nation"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{    
+	"popularity": 81.0,
+    "director": "Alfred Hitchcock",
+    "imdb_score": 8.1,
+    "name": "Shadow of a Doubt"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{    
+	"popularity": 83.0,
+    "director": "Steven Spielberg",
+    "imdb_score": 8.3,
+    "name": "Jaws"}
+  },
+  {
+	"model": "movies.movie_details",
+	"fields":{    
+	"popularity": 64.0,
+    "director": "J. Searle Dawley",
+    "imdb_score": 6.4,
+    "name": "Snow White"}
+  }
+]
